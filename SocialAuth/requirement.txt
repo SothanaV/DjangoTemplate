@@ -1,2 +1,0 @@
-django==2.0.1
-python-social-auth==0.3.6
