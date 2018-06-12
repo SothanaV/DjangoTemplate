@@ -135,6 +135,9 @@ AUTHENTICATION_BACKENDS = (
     'social_core.backends.facebook.FacebookOAuth2',
 
     'django.contrib.auth.backends.ModelBackend',
+    'social_core.backends.open_id.OpenIdAuth',  # for Google authentication
+    'social_core.backends.google.GoogleOpenId',  # for Google authentication
+    'social_core.backends.google.GoogleOAuth2',  # for Google authentication
 )
 
 LOGIN_URL = 'login'
@@ -147,3 +150,6 @@ TEMPLATE_DIRS = (
 
 SOCIAL_AUTH_TWITTER_KEY = 'gMfCGO0nPKfa4vO4IheJUIWeV'
 SOCIAL_AUTH_TWITTER_SECRET = 'TFraQHkmL9Uwv04kP4mK12VurItBQJLw8EkCHqUA1JbsEnpBHk'
+
+SOCIAL_AUTH_GOOGLE_OAUTH2_KEY ='784769647191-ujiduur7davo3m4m6ep4uuusnuim1ui2.apps.googleusercontent.com'
+SOCIAL_AUTH_GOOGLE_OAUTH2_SECRET = '3pFu68X8TzfhxMvnbyT_cYAG'
