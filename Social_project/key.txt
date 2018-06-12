@@ -1,0 +1,8 @@
+user : g_scmar2018a0310
+pass : wlan5200
+
+
+google api key : AIzaSyAJDNKe9_Ax0KyD5hxbtjMAWvcCRlHpugQ
+
+client id : 784769647191-ujiduur7davo3m4m6ep4uuusnuim1ui2.apps.googleusercontent.com
+secret : 3pFu68X8TzfhxMvnbyT_cYAG
